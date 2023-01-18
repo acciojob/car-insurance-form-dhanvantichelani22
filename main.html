@@ -8,17 +8,37 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method = "post">
+	<form action="#" method = "post">
+		<div>
 		<label for = "name">Name</label>
 		<input type = "text" id = "name" required> 
+			</div>
 		<br>
+		<div>
 		<label for = "email">Email</label>
 		<input type = "email" id = "email"> 
 		<br>
+			</div>
+		<div>
 		<label for = "gender">Gender</label>
-		<input type = "gender"> 
+		<input type = "radio">Female 
+		<input type = "radio">Male
+			</div>
 		<br>
-		
+		<div>
+		<select name="Car Brands" id="Car Brands">
+            <option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Mercedez">Mercedez</option>
+		</select>
+		</div>
+		<br>
+		<div>
+			<input type="date">
+		</div>
+		<br>
+		<div>
+			<input type="password"><br>
 		<button type="submit">Submit</button>
     <script type="text/javascript" src="./script.js">
 </script>
